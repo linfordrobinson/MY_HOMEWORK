@@ -12,8 +12,8 @@ body {
 }
 
 .flex-container {
-    display: inline-flex;
-    justify-content: right;
+   display: inline-flex;
+    justify-content: space-between;
   
 
 }
@@ -36,4 +36,19 @@ body {
 
     width: 100px;
     margin: 0 auto;
+}
+
+.flex-container-col {
+    display: inline-flex;
+    flex-direction: column;
+
+
+
+}
+
+.flex-child-col {
+    color: #ECFAFF;
+    text-align: center;
+
+
 }
