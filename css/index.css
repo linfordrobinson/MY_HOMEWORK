@@ -12,8 +12,8 @@ body {
 }
 
 .flex-container {
-    display: flex;
-    flex-direction:row;
+    display: inline-flex;
+    justify-content: right;
   
 
 }
