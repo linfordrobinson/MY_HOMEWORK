@@ -1,5 +1,6 @@
 body {
-  
+    
+  background-color: #060607;
     font-family: 'Red Hat Display', sans-serif;
 
 }
@@ -12,15 +13,27 @@ body {
 
 .flex-container {
     display: flex;
-    flex-direction: row;
-    height: 500px;
-    width: 800px;
+    flex-direction:row;
+  
 
 }
 
-.flex-child-1{
+.flex-child {
+
     height: 400;
     width: 250px;
-    color: #060607
+    text-align: center;
+    color: #ECFAFF;
 
+
+   
+   
+
+
+}
+
+.flex-child img {
+
+    width: 100px;
+    margin: 0 auto;
 }
