@@ -38,17 +38,38 @@ body {
     margin: 0 auto;
 }
 
-.flex-container-col {
-    display: inline-flex;
+.MyWork {
+    display: flex;
     flex-direction: column;
+    border: 1px solid red;
+    color: #ECFAFF;
+}
+
+.flex-container-col {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    border: 1px solid red;
+
+
+}
+
+
+.blurb {
+    width: 62%;
+    height: 100%
+    color: #ECFAFF;
+    text-align: center;
+    border: 1px solid red;
 
 
 
 }
 
-.flex-child-col {
-    color: #ECFAFF;
-    text-align: center;
+.string {
+    width: 32%;
+    height: 100%;
+    border: 1px solid red;
 
 
 }
