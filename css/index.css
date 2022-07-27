@@ -11,8 +11,13 @@ body {
 
 }
 
+.white-text {
+    color:#ECFAFF;
+}
+
 .flex-container {
-   display: inline-flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
   
 
@@ -97,4 +102,12 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+       background-color: #9CD5EE;
+        }
+    }
 }
